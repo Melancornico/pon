@@ -1,0 +1,451 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    overflow: hidden;
+}
+
+.izquierda{
+    width: 700px;
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+.izquierda p{
+    width: 650px;
+    height: 150px;
+    background-color: d1e4d5;
+}
+
+
+.derecha{
+    width: 50%;
+    height: 100vh;
+    background: url(/img/esc_sill.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    width: 150px;
+    margin-left: 20px;
+    display: inline-block
+}
+
+.pantalla-dividida{
+    display: flex;
+}
+
+
+
+.titulo{
+    color: #0bb443;
+    font-size: 45px;
+}
+
+h1{
+    font-size: 45px;
+    margin: 10px;
+}
+
+h2{
+    margin: 20px;
+}
+
+p{
+    font-size: 19px;
+    line-height: 30px;
+    width: 50%;
+    margin: 20px;
+}
+
+a{
+    border: 2px solid #0bb443;
+    padding: 10px;
+    text-decoration: none;
+    color:#333333;
+    border-radius: 30px;
+    margin-left:30px;
+    margin-top: -10px;
+}
+
+a:hover{
+    transition: 0.5s;
+    background-color:  #0bb443;
+    color: rgb(255, 255, 255);
+}
+
+.objeto{
+    opacity: .3;
+    position: absolute;
+    bottom: -120px;
+    
+
+    animation: objetos 8s linear infinite;
+}
+
+.objeto:nth-child(1){
+    width: 50px;
+    height: 50px;
+    left: 15%;
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+
+.objeto:nth-child(2){
+    width: 50px;
+    height: 50px;
+    left: 25%;
+    animation-duration: 3s;
+    animation-delay: 4s;
+}
+
+.objeto:nth-child(3){
+    width: 50px;
+    height: 50px;
+    left: 35%;
+    animation-duration: 3s;
+    animation-delay: 5s;
+}
+
+.objeto:nth-child(4){
+    width: 0px;
+    height: 0px;
+    left: 45%;
+    animation-duration: 3s;
+    animation-delay: 6s;
+}
+
+
+@keyframes objetos{
+    0%{
+        bottom: 0;
+        opacity: none;
+    }
+    30%{
+        transform: translateX(15px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        bottom: 50vh;
+        opacity: 0;
+    }
+}
+
+@media only screen and (max-width:900px){
+    .izquierda{
+        width: 100%;
+        background-color: #ffffff;
+        height: 100vh;
+    }
+    
+    .izquierda p{
+        width: 100%;
+        height: 215px;
+    }
+    
+    .izquierda a{
+        width: 100%;
+        height: 25%;
+    }
+    
+    .derecha{
+        width: 0%;
+        height: 100vh;
+        background: url(/img/esc_sill.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .logo{
+        width: 150px;
+        margin-left: 10px;
+        display: inline-block
+    }
+    
+    .pantalla-dividida{
+        display: flex;
+    }
+    
+    
+    
+    .titulo{
+        color: #0bb443;
+        font-size: 26px;
+    }
+    
+    h1{
+        font-size: 26px;
+        margin: 10px;
+    }
+    
+    h2{
+        margin: 10px;
+    }
+    
+    p{
+        font-size: 19px;
+        line-height: 30px;
+        margin: 20px;
+        margin-left: 5px;
+    }
+    
+    a{
+        font-size: 15px;
+        margin-top: auto;
+        border: 2px solid #0bb443;
+        padding: 10px;
+        text-decoration: none;
+        color:#333333;
+        border-radius: 30px;
+        margin-left:10px;
+    }
+    
+    a:hover{
+        transition: 0.5s;
+        background-color:  #0bb443;
+        color: rgb(255, 255, 255);
+    }
+    
+    .objeto{
+        opacity: .3;
+        position: absolute;
+        bottom: -120px;
+        
+    
+        animation: objetos 8s linear infinite;
+    }
+    
+    .objeto:nth-child(1){
+        width: 50px;
+        height: 50px;
+        left: 25%;
+        animation-duration: 3s;
+        animation-delay: 2s;
+    }
+    
+    .objeto:nth-child(2){
+        width: 50px;
+        height: 50px;
+        left: 40%;
+        animation-duration: 3s;
+        animation-delay: 3s;
+    }
+    
+    .objeto:nth-child(3){
+        width: 50px;
+        height: 50px;
+        left: 60%;
+        animation-duration: 3s;
+        animation-delay: 4s;
+    }
+    
+    .objeto:nth-child(4){
+        width: 50px;
+        height: 50px;
+        left: 75%;
+        animation-duration: 3s;
+        animation-delay: 5s;
+    }
+    
+    
+    
+    @keyframes objetos{
+        0%{
+            bottom: 0;
+            opacity: none;
+        }
+        30%{
+            transform: translateX(15px);
+        }
+        50%{
+            opacity: 1;
+        }
+        100%{
+            bottom: 50vh;
+            opacity: 0;
+        }
+    }   
+}
+
+
+
+
+@media only screen and (max-width:320px){
+    .izquierda{
+        width: 100%;
+        background-color: #ffffff;
+        height: 100vh;
+    }
+    
+    .izquierda p{
+        width: 100%;
+        height: 225px;
+    }
+    
+    .izquierda a{
+        width: 100%;
+        height: 25%;
+    }
+    
+    .derecha{
+        width: 0%;
+        height: 100vh;
+        background: url(/img/esc_sill.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .logo{
+        width: 150px;
+        margin-left: 10px;
+        display: inline-block
+    }
+    
+    .pantalla-dividida{
+        display: flex;
+    }
+    
+    
+    
+    .titulo{
+        color: #0bb443;
+        font-size: 26px;
+    }
+    
+    h1{
+        font-size: 26px;
+        margin: 10px;
+    }
+    
+    h2{
+        margin: 10px;
+    }
+    
+    p{
+        font-size: 15px;
+        line-height: 30px;
+        margin: 20px;
+        margin-left: 5px;
+    }
+    
+    a{
+        font-size: 13px;
+        margin-top: auto;
+        border: 2px solid #0bb443;
+        padding: 10px;
+        text-decoration: none;
+        color:#333333;
+        border-radius: 30px;
+        margin-left:10px;
+    }
+    
+    a:hover{
+        transition: 0.5s;
+        background-color:  #0bb443;
+        color: rgb(255, 255, 255);
+    }
+    
+    .objeto{
+        opacity: .3;
+        position: absolute;
+        bottom: -120px;
+        
+    
+        animation: objetos 8s linear infinite;
+    }
+    
+    .objeto:nth-child(1){
+        width: 50px;
+        height: 50px;
+        left: 25%;
+        animation-duration: 3s;
+        animation-delay: 2s;
+    }
+    
+    .objeto:nth-child(2){
+        width: 50px;
+        height: 50px;
+        left: 40%;
+        animation-duration: 3s;
+        animation-delay: 3s;
+    }
+    
+    .objeto:nth-child(3){
+        width: 50px;
+        height: 50px;
+        left: 60%;
+        animation-duration: 3s;
+        animation-delay: 4s;
+    }
+    
+    .objeto:nth-child(4){
+        width: 50px;
+        height: 50px;
+        left: 75%;
+        animation-duration: 3s;
+        animation-delay: 5s;
+    }
+    
+    
+    
+    @keyframes objetos{
+        0%{
+            bottom: 0;
+            opacity: none;
+        }
+        30%{
+            transform: translateX(15px);
+        }
+        50%{
+            opacity: 1;
+        }
+        100%{
+            bottom: 50vh;
+            opacity: 0;
+        }
+    }   
+}
+
+@media only screen and (max-width:768px){
+    .izquierda{
+        width: 100%;
+        background-color: #ffffff;
+        height: 100vh;
+    }
+    
+    .izquierda p{
+        width: 100%;
+        height: 110px;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    .izquierda{
+        width: 100%;
+        background-color: #ffffff;
+        height: 100vh;
+    }
+    
+    .izquierda p{
+        width: 100%;
+        height: 200px;
+    }
+
+    .derecha{
+        display: none;
+    }
+
+    a{
+        font-size: 11px;
+        margin-top: auto;
+        border: 2px solid #0bb443;
+        padding: 10px;
+        text-decoration: none;
+        color:#333333;
+        border-radius: 30px;
+        margin-left:10px;
+    }
+}

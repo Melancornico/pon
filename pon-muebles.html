@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PON | Muebles</title>
+</head>
+        <!-- Estilos-->
+    <link rel="stylesheet" href="css/muebles-styles.css">
+    <link rel="stylesheet" href="css/whatsapp.css">
+
+    <!-- Icono de la página-->
+    <link rel="shortcut icon" href="img/logo restaurado.png" type="image/x-icon">
+   
+
+    <!-- Iconos-->
+    <script src="https://kit.fontawesome.com/3679e419cc.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+
+    <!-- Slider -->
+    <link rel="stylesheet" href="flexslider.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(window).load(function() {
+          $('.flexslider').flexslider({
+            touch: true,  
+          });
+        });
+      </script>
+</head>
+
+<body>
+    <div class="info-principal">
+        <i class="fab fa-whatsapp"></i>
+        <p>(871)793 1122</p>
+        <i class="fas fa-envelope"></i>
+        <p>pon@pon.com.mx</p>
+        <i class="fas fa-phone-alt"></i>
+        <p>(871)793 1122</p>
+    </div>
+
+<div class="intro">
+    
+</div>
+
+<!-- Menú de navegación-->
+<nav class="menu" id="menu">
+    <!-- Botones Iconos-->
+    <div class="contenedor contenedor-botones-menu">
+        <button id="btn-menu-barras"  class="btn-menu-barras" ><i class="fas fa-bars"></i></button>
+        <button id="btn-menu-cerrar"  class="btn-menu-cerrar" ><i class="fas fa-times"></i></button>
+        <a href="index.html"><img class="logo-menu2" src="img/logo restaurado.png" alt=""></a> 
+        
+    </div>
+    
+    <div class="contenedor contenedor-enlaces-nav">
+        <!-- Logo -->
+      <a href="index.html"><img class="logo-menu" src="img/logo restaurado.png" alt=""></a>  
+        <div class="btn-categorias" id="btn-categorias">
+            <p>Categorías</p>
+        </div>
+        
+        <div class="enlaces">
+            <a href="#">Promociones</a>
+            <a href="#">Contacto</a>
+            <a class="link-computacion" href="pon-computacion.html"> Ir a PON Computación</a>
+        </div> 
+    </div>
+
+    <div class="contenedor contenedor-gr-id">
+        <div class="grid  " id="grid">
+            <div class="categorias">
+                <button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+                <h3 class="subtitulo">Categorias</h3>
+
+                <a href="#" data-categoria="computacion">Lockers <i class="fas fa-angle-right"></i></a>
+                <a href="#" data-categoria="redes">Archiveros<i class="fas fa-angle-right"></i></a>
+                <a href="#" data-categoria="impresoras-y-scanners">Escritorios <i class="fas fa-angle-right"></i></a>
+                <a href="#" data-categoria="energia">Sillas<i class="fas fa-angle-right"></i></a>
+               
+            </div>
+            <div class="contenedor-subcategorias">
+                <div class="subcategoria activo" data-categoria="computacion">
+                    <div class="enlaces-subcategoria">
+                        <button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+                        <h3 class="subtitulo">Lockers</h3>
+                        <a href="#">Lockers</a>
+                    </div>
+                    <div class="banner-subcategoria">
+                        <a href="#">
+                            <img src="img/categorias/lockers-categoria.jpg" alt="locker">
+                        </a>
+                    </div>
+                    <div class="galeria-subcategoria">
+                        <a href="#">
+                            <img src="img/categorias/lockers-2.jpg" alt="lockers">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="subcategoria " data-categoria="redes">
+                    <div class="enlaces-subcategoria">
+                        <button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+                        <h3 class="subtitulo">Archiveros</h3>
+                        <a href="#">Archiveros</a>
+                    </div>
+                    <div class="banner-subcategoria">
+                        <a href="#">
+                            <img src="img/categorias/archiveros.jpg" alt="redes">
+                        </a>
+                    </div>
+                    <div class="galeria-subcategoria">
+                        <a href="#">
+                            <img src="img/categorias/archiveros-2.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="subcategoria " data-categoria="impresoras-y-scanners">
+                    <div class="enlaces-subcategoria">
+                        <button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+                        <h3 class="subtitulo">Escritorios</h3>
+                        <a href="#">Escritorios</a>
+                    </div>
+                    <div class="banner-subcategoria">
+                        <a href="#">
+                            <img src="img/categorias/desk.jpg" alt="impresora">
+                        </a>
+                    </div>
+                    <div class="galeria-subcategoria">
+                        <a href="#">
+                            <img src="img/categorias/desk-2.jpg" alt="impresora">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="subcategoria " data-categoria="energia">
+                    <div class="enlaces-subcategoria">
+                        <button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+                        <h3 class="subtitulo">Sillas</h3>
+                        <a href="#">Sillas</a>
+                    </div>
+                    <div class="banner-subcategoria">
+                        <a href="#">
+                            <img src="img/categorias/silla.jpg" alt="energia">
+                        </a>
+                    </div>
+                    <div class="galeria-subcategoria">
+                        <a href="#">
+                            <img src="img/categorias/chari-2.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+
+<!-- Slider -->
+<div class="flexslider">
+    <ul class="slides">
+        <li>
+            <img src="img/oficina.jpg" alt="">
+            <section class="flex-caption"></section>
+        </li>
+        <li>
+            <img src="img/escritorio.jpg" alt="">
+            <section class="flex-caption"></section>
+        </li>
+        <li>
+            <img src="img/lockers.jpg" alt="">
+            <section class="flex-caption"></section>
+        </li>
+    </ul> 
+
+</div>
+
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=+528717931122&text" class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+    </a>
+
+<!-- Productos principales-->
+<main>
+    <div class="texto">
+        <h1>Proveedor de Oficinas del Norte</h1>
+        <p>
+            En PON contamos con los muebles adecuados para tu oficina o de uso personal.
+        </p>
+    </div>
+    <header>
+        <h1>Muebles</h1>
+        <p>
+            <span class="uno">&#139;</span>
+            <span class="dos">&#155;</span>
+        </p>
+    </header>
+    <section class="section-prod">
+        <div class="product">
+            <picture>
+                <img src="img/productos/Adapta Pedestal.png" alt="">
+            </picture>
+            <div class="detalle">
+                <p class="titulo-prod">Escritorio Adapta Pedestal 3G</p>
+            </div>
+            <p class="descripcion-producto">
+                150 x 150 x 75
+            </p>
+            <p class="precio">$7,164.29</p>
+            <p class="precioIva">+ Gastos de envío</p>
+        </div>
+
+        <div class="product">
+            <picture>
+                <img src="img/productos/aris pedestal.png" alt="">
+            </picture>
+            <div class="detalle">
+                <p class="titulo-prod">Escritorio Aris Pedestal 3G</p>
+            </div>
+            <p class="descripcion-producto">
+                150 x 150 x 75
+            </p>
+            <p class="precio">$8,970.11</p>
+            <p class="precioIva">+ Gastos de envío</p>
+        </div>
+
+        <div class="product">
+            <picture>
+                <img  class="ecko" src="img/productos/ecko estudiantil.png" alt="">
+            </picture>
+            <div class="detalle">
+                <p class="titulo-prod">Escritorio Ecko estudiantil</p>
+            </div>
+            <p class="descripcion-producto">
+               120 x 60 x 75
+            </p>
+            <p class="precioEcko">$2,024.00</p>
+            <p class="precioIvaE">+ Gastos de envío</p>
+        </div>
+
+        <div class="product">
+            <picture>
+                <img  class="omega" src="img/productos/omega escuadra sencilla.png" alt="">
+            </picture>
+            <div class="detalle">
+                <p class="titulo-prod">Escritorio <br> Omega escuadra sencilla</p>
+            </div>
+            <p class="descripcion-producto">
+                150 x 150 x 75
+            </p>
+            <p class="precio">$5,850.00</p>
+            <p class="precioIva">+ Gastos de envío</p>
+        </div>
+
+        <div class="product">
+            <picture>
+                <img src="img/productos/pedestal3g.png" alt="">
+            </picture>
+            <div class="detalle">
+                <p class="titulo-prod">Escritorio Omega Pedestal 3G</p>
+            </div>
+            <p class="descripcion-producto">
+                150 x 150 x 75
+            </p>
+            <p class="precio">$9,118.33.00</p>
+            <p class="precioIva">+ Gastos de envío</p>
+        </div>
+
+        <div class="product">
+            <picture>
+                <img src="img/productos/QUATTRO.png" alt="">
+            </picture>
+            <div class="detalle">
+                <p class="titulo-prod">Escritorio QUATTRO</p>
+            </div>
+            <p class="descripcion-producto">
+                150 x 60 x 75
+            </p>
+            <p class="precio">$6,763.00</p>
+            <p class="precioIva">+ Gastos de envío</p>
+        </div>
+
+        
+    </section>
+</main>
+
+<!--Ayuda-->
+<div class="prueba">
+    <h2 class="titulo-caja">¿En qué podemos ayudarte?</h2>
+    <section class="section anuncio">
+        <div class="anuncio-center anuncio">
+            <div class="anuncio-caja">
+                <div class="puntear">
+                    <div class="contenido-anuncios">
+                        <h3>Muebles para  <br> 
+                            Oficina</h3>
+                            <h4> Los mejores muebles para tu oficina están aquí.</h4>
+                    </div>
+                </div>
+                <img  class="computadora-esc" src="img/productos/omega escuadra sencilla.png" alt="">
+            </div>
+            <div class="anuncio-caja">
+                <div class="puntear">
+                    <div class="contenido-anuncios">
+                        <h3>Muebles de uso personal<br> </h3>
+                            <h4>¿Necesitas un escritorio cómodo para ti? Contáctanos.</h4>
+                    </div>
+                </div>
+                <img  class="laptop" src="img/productos/ecko estudiantil.png" alt="">
+            </div>
+            <div class="anuncio-caja">
+                <div class="puntear">
+                    <div class="contenido-anuncios">
+                        <h3>Lockers <br> 
+                            </h3>
+                            <h4>Lockers disponibles con nosotros. Contáctanos.</h4>
+                    </div>
+                </div>
+                <img  class="locker" src="img/productos/Locker metalico 4 gavetas.png" alt="">
+                <img class="gabinete" src="img/productos/Gabinete Universal.png" alt="">
+                <img  class="archivero" src="img/productos/Archivero Metalico 4 Gavetas.png" alt="">
+            </div>
+        </div>
+    </section>
+</div>
+
+
+<!-- Footer -->
+<footer>
+    <div class="footer-contenido">
+        <div class="left box">
+            
+            <div class="footer-adentro">
+                <img src="img/logo restaurado.png" class="logo-footer" alt="">
+                <p class="acerca-footer"> Proveedor de Oficinas del Norte</p>
+                <p class="eslogan">Por algo vendemos más...</p>
+                <div class="social">
+                    <a class="logo-fb" href="https://www.facebook.com/pon.torreon/"  target="_blank"><span class="fab fa-facebook-f"></span></a>
+                </div>
+            </div>
+        </div>
+        <div class="center box">
+            <!-- <h3>Nosotros</h3> -->
+            <div class="direccion-contenido">
+                <div class="place">
+                    <span class="fas fa-map-marker-alt"></span>
+                    <span class="text"> Torreón, Coahuila</span>
+                </div>
+                <div class="telefono">
+                    <span class="fas fa-phone-alt"></span>
+                    <span class="text"> (871)793 1122</span>
+                </div>
+                <div class="correo">
+                    <span class="fas fa-envelope"></span>
+                    <span class="text"> pon@pon.com.mx</span>
+                </div>
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3599.82518729144!2d-103.41931098550852!3d25.54419932380436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868fdbbb167a8333%3A0xefec0e8cc8eee572!2sProveedor%20de%20Oficinas%20del%20Norte%20S.A%2C%20de%20C.V.!5e0!3m2!1ses!2smx!4v1618687900000!5m2!1ses!2smx" width="210" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="right box">
+            <h3>Contáctanos</h3>
+            <div class="contacto-contenido">
+                <form action="correo.php" method="POST">
+                    <div class="nombre">
+                        <div class="text">Nombre</div>
+                        <input class="t-nombre" type="text"
+                        name="nombre" required>
+                    </div>
+                    <div class="email">
+                        <div class="text">Correo</div>
+                        <input name="email" class="t-email" type="email" required>
+                    </div>
+                    <div class="mensaje">
+                        <div class="text">Mensaje</div>
+                        <textarea name="mensaje" class="t-tarea"  cols="30" rows="15" required></textarea>
+                    </div>
+                    <div class="boton">
+                        <button class="boton-formulario" type="submit">Envíar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h5 class="copy"> © Copyright 2021, All Right Reserved, <br> Proveedor de Oficinas del Norte S.A de C.V. </h5>
+    </div>
+</footer>
+
+
+
+  
+
+
+<script src="js/muebles.js"></script>
+
+</body>
+</html>
+
+
+    
+
+
+    
+    </body>
+</html>

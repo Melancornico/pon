@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PON | Computación</title>
+
+    <!-- Estilos-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/whatsapp.css">
+
+   
+
+    <!-- Iconos-->
+    <script src="https://kit.fontawesome.com/3679e419cc.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Icono de la página-->
+    <link rel="shortcut icon" href="img/logo restaurado.png" type="image/x-icon">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+
+    <!-- Slider -->
+    <link rel="stylesheet" href="flexslider.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(window).load(function() {
+          $('.flexslider').flexslider({
+            touch: true,  
+          });
+        });
+      </script>
+</head>
+<body>
+    <div class="info-principal">
+        <i class="fab fa-whatsapp"></i>
+        <p>(871)793 1122</p>
+        <i class="fas fa-envelope"></i>
+        <p>pon@pon.com.mx</p>
+        <i class="fas fa-phone-alt"></i>
+        <p>(871)793 1122</p>
+    </div>
+
+<div class="intro">
+    
+</div>
+
+<!-- Menú de navegación-->
+<nav class="menu" id="menu">
+    <!-- Botones Iconos-->
+    <div class="contenedor contenedor-botones-menu">
+        <button id="btn-menu-barras"  class="btn-menu-barras" ><i class="fas fa-bars"></i></button>
+        <button id="btn-menu-cerrar"  class="btn-menu-cerrar" ><i class="fas fa-times"></i></button>
+        <a href="index.html"><img class="logo-menu2" src="img/logo restaurado.png" alt=""></a> 
+        
+    </div>
+    
+    <div class="contenedor contenedor-enlaces-nav">
+        <!-- Logo -->
+      <a href="index.html"><img class="logo-menu" src="img/logo restaurado.png" alt=""></a>  
+        <div class="btn-categorias" id="btn-categorias">
+            <p>Categorías</p>
+        </div>
+        
+        <div class="enlaces">
+            <a href="#">Promociones</a>
+            <a href="#">Marcas</a>
+            <a href="#">Contacto</a>
+           <a href="pon-muebles.html"> Ir a PON Muebles</a>
+        </div> 
+    </div>
+
+    <div class="contenedor contenedor-gr-id">
+        <div class="grid  " id="grid">
+            <div class="categorias">
+                <button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+                <h3 class="subtitulo">Categorias</h3>
+
+                <a href="#" data-categoria="computacion">Computación <i class="fas fa-angle-right"></i></a>
+                <a href="#" data-categoria="redes">Redes<i class="fas fa-angle-right"></i></a>
+                <a href="#" data-categoria="impresoras-y-scanners">Impresoras y Scanners <i class="fas fa-angle-right"></i></a>
+                <a href="#" data-categoria="energia">Energía <i class="fas fa-angle-right"></i></a>
+                <a href="#" data-categoria="punto-de-venta">Punto de venta <i class="fas fa-angle-right"></i></a>
+                <a href="#" data-categoria="hardware">Hardware <i class="fas fa-angle-right"></i></a>
+                <a href="#" data-categoria="consumibles">Consumibles <i class="fas fa-angle-right"></i></a>
+                <a href="#" data-categoria="servicios">Servicios<i class="fas fa-angle-right"></i></a>
+            </div>
+            <div class="contenedor-subcategorias">
+                <div class="subcategoria activo" data-categoria="computacion">
+                    <div class="enlaces-subcategoria">
+                        <button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+                        <h3 class="subtitulo">Computación</h3>
+                        <a href="#">Desktop</a>
+                        <a href="#">Laptops</a>
+                        <a href="#">Servidores</a>
+                        <a href="#">All in one</a>
+                        <a href="#">Tablets</a>
+                    </div>
+                    <div class="banner-subcategoria">
+                        <a href="#">
+                            <img src="img/categorias/computo.jpg" alt="computacion">
+                        </a>
+                    </div>
+                    <div class="galeria-subcategoria">
+                        <a href="#">
+                            <img src="img/categorias/computers-teclado.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="subcategoria " data-categoria="redes">
+                    <div class="enlaces-subcategoria">
+                        <button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+                        <h3 class="subtitulo">Redes</h3>
+                        <a href="#">Cables de red</a>
+                        <a href="#">Switches</a>
+                        <a href="#">Routers</a>
+                        <a href="#">Repetidores</a>
+                        <a href="#">Jacks</a>
+                        <a href="#">Cajas de red</a>
+                    </div>
+                    <div class="banner-subcategoria">
+                        <a href="#">
+                            <img src="img/categorias/redes.jpg" alt="redes">
+                        </a>
+                    </div>
+                    <div class="galeria-subcategoria">
+                        <a href="#">
+                            <img src="img/categorias/redes-2.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="subcategoria " data-categoria="impresoras-y-scanners">
+                    <div class="enlaces-subcategoria">
+                        <button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+                        <h3 class="subtitulo">Impresoras y Scanners</h3>
+                        <a href="#">Impresora de láser</a>
+                        <a href="#">Impresora de tinta</a>
+                        <a href="#">Scanners</a>
+                        <a href="#">Impresora de código de barras</a>
+                    </div>
+                    <div class="banner-subcategoria">
+                        <a href="#">
+                            <img src="img/categorias/impresora.jpg" alt="impresora">
+                        </a>
+                    </div>
+                    <div class="galeria-subcategoria">
+                        <a href="#">
+                            <img src="img/categorias/imp.jpg" alt="impresora">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="subcategoria " data-categoria="energia">
+                    <div class="enlaces-subcategoria">
+                        <button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+                        <h3 class="subtitulo">Energía</h3>
+                        <a href="#">Reguladores</a>
+                        <a href="#">Multicontactos</a>
+                        <a href="#">Rax</a>
+                        <a href="#">No Break Ups</a>
+                    </div>
+                    <div class="banner-subcategoria">
+                        <a href="#">
+                            <img src="img/categorias/multi.jpg" alt="energia">
+                        </a>
+                    </div>
+                    <div class="galeria-subcategoria">
+                        <a href="#">
+                            <img src="img/categorias/energia.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="subcategoria " data-categoria="punto-de-venta">
+                    <div class="enlaces-subcategoria">
+                        <button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+                        <h3 class="subtitulo">Punto de venta</h3>
+                        <a href="#">Cajones de dinero</a>
+                        <a href="#">Lectores</a>
+                        <a href="#">Miniprinters</a>
+                        <a href="#">Monitores</a>
+                    </div>
+                    <div class="banner-subcategoria">
+                        <a href="#">
+                            <img src="img/categorias/pos.jpg" alt="punto-de-venta">
+                        </a>
+                    </div>
+                    <div class="galeria-subcategoria">
+                        <a href="#">
+                            <img src="img/categorias/pos-2.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="subcategoria " data-categoria="hardware">
+                    <div class="enlaces-subcategoria">
+                        <button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+                        <h3 class="subtitulo">Hardware</h3>
+                        <a href="#">Procesadores</a>
+                        <a href="#">Tarjeta Madre</a>
+                        <a href="#">Memoria RAM</a>
+                        <a href="#">Disco Duro</a>
+                        <a href="#">SSD</a>
+                    </div>
+                    <div class="banner-subcategoria">
+                        <a href="#">
+                            <img src="img/categorias/hardware.jpg" alt="procesador">
+                        </a>
+                    </div>
+                    <div class="galeria-subcategoria">
+                        <a href="#">
+                            <img src="img/categorias/hardware-2.jpg" alt="memoria-RAM">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="subcategoria " data-categoria="consumibles">
+                    <div class="enlaces-subcategoria">
+                        <button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+                        <h3 class="subtitulo">Consumibles</h3>
+                        <a href="#">Tinta</a>
+                        <a href="#">Tóner</a>
+                    </div>
+                    <div class="banner-subcategoria">
+                        <a href="#">
+                            <img src="img/categorias/is-2.jpg" alt="toner">
+                        </a>
+                    </div>
+                    <div class="galeria-subcategoria">
+                        <a href="#">
+                            <img src="img/categorias/tyt.jpg" alt="tina-impresora">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="subcategoria " data-categoria="servicios">
+                    <div class="enlaces-subcategoria">
+                        <button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+                        <h3 class="subtitulo">Servicios</h3>
+                        <a href="#">Soporte en redes</a>
+                        <a href="#">Soporte a impresoras</a>
+                        <a href="#">Soporte a computadoras y laptops</a>
+                        <a href="#">Soporte a servidores</a>
+                    </div>
+                    <div class="banner-subcategoria">
+                        <a href="#">
+                            <img src="img/categorias/soporte.jpg" alt="pc">
+                        </a>
+                    </div>
+                    <div class="galeria-subcategoria">
+                        <a href="#">
+                            <img src="img/categorias/soporte-2.jpg" alt="soporte-tecnico">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+
+<!-- Slider -->
+<div class="flexslider">
+    <ul class="slides">
+        <li>
+            <img src="/img/procesador.jpg" alt="">
+            <section class="flex-caption"></section>
+        </li>
+        <li>
+            <img src="/img/teclado.jpg" alt="">
+            <section class="flex-caption"></section>
+        </li>
+        <li>
+            <img src="/img/placa_madre.jpg" alt="">
+            <section class="flex-caption"></section>
+        </li>
+    </ul> 
+
+</div>
+
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=+528717931122&text" class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+    </a>
+
+<!-- Prductos principales-->
+<main>
+    <div class="texto">
+        <h1>Proveedor de Oficinas del Norte</h1>
+        <p>
+           ¿Buscas algún equipo de cómputo o alguna pieza de hardware? <br> Nosotros podemos ayudarte.
+        </p>
+    </div>
+    <header>
+        <h1>¡Productos en promoción!</h1>
+        <p>
+            <span class="uno">&#139;</span>
+            <span class="dos">&#155;</span>
+        </p>
+    </header>
+    <section class="section-prod">
+        <div class="product">
+            <picture>
+                <img src="img/productos/Computadora de Ensamble CI 3.png" alt="">
+            </picture>
+            <div class="detalle">
+                <p class="titulo-prod">Computadora de Ensamble CI 3</p>
+            </div>
+            <p class="descripcion-producto">
+                - Procesador INTEL CORE i3-10100 <br>
+                - Disco Duro 480 GB <br>
+                - Memoria RAM 4GB<br>
+                - Quemador <br>
+                - Teclado y mouse <br>
+                - Incluye monitor Quaroni 18.5"
+            </p>
+            <p class="precio">$8,138.00</p>
+            <p class="precioIva">+ IVA</p>
+        </div>
+
+        <div class="product">
+            <picture>
+                <img src="img/productos/Computadora de Ensamble PENTIUM.png" alt="">
+            </picture>
+            <div class="detalle">
+                <p class="titulo-prod">Computadora de Ensamble PENTIUM</p>
+            </div>
+            <p class="descripcion-producto">
+                - Procesador INTEL PENTIUM GOLD G5400 <br>
+                - Disco Duro 480 GB <br>
+                - Memoria RAM 4GB<br>
+                - Quemador <br>
+                - Teclado y mouse <br>
+                - Incluye monitor Quaroni 18.5"
+            </p>
+            <p class="precio">$6,763.00</p>
+            <p class="precioIva">+ IVA</p>
+        </div>
+
+        <div class="product">
+            <picture>
+                <img  class="monitor" src="img/productos/Monitor EC Line EC-TS-1515.png" alt="">
+            </picture>
+            <div class="detalle">
+                <p class="titulo-prod">Monitor EC Line EC-TS-1515</p>
+            </div>
+            <p class="descripcion-producto">
+                - LED TouschScreen 15" <br>
+                - Negro resistivo (rudo) <br>
+            </p>
+            <p class="precioMonitor">$3,999.00</p>
+            <p class="precioIvaM">+ IVA</p>
+        </div>
+
+        <div class="product">
+            <picture>
+                <img  class="se" src="img/productos/se-500.png" alt="">
+            </picture>
+            <div class="detalle">
+                <p class="titulo-prod">SE-500 UPS INTERACTIVO</p>
+            </div>
+            <p class="descripcion-producto">
+                - 4 Contactos <br>
+                - Hasta 25 minutos de respaldo<br>
+                - 3 en 1 Respaldo, Regulación y supresión<br>
+                - Ideal para equipos de cómputo, audio y video. <br>
+            </p>
+            <p class="precio">$760.00</p>
+            <p class="precioIva">+ IVA</p>
+        </div>
+        
+    </section>
+</main>
+
+<!--Ayuda-->
+<div class="prueba">
+    <h2 class="titulo-caja">¿En qué podemos ayudarte?</h2>
+    <section class="section anuncio">
+        <div class="anuncio-center anuncio">
+            <div class="anuncio-caja">
+                <div class="puntear">
+                    <div class="contenido-anuncios">
+                        <h3>Servicio <br> 
+                            Técnico</h3>
+                            <h4>Podemos reparar cualquier incoveniente que tengas con tu equipo.</h4>
+                    </div>
+                </div>
+                <img  class="computadora-esc" src="img/productos/computadora.png" alt="">
+            </div>
+            <div class="anuncio-caja">
+                <div class="puntear">
+                    <div class="contenido-anuncios">
+                        <h3>Laptops & Escritorio <br> </h3>
+                            <h4>¿Necesitas un equipo de cómputo? No dudes en contactarnos.</h4>
+                    </div>
+                </div>
+                <img  class="laptop" src="img/productos/lap.png" alt="">
+            </div>
+            <div class="anuncio-caja">
+                <div class="puntear">
+                    <div class="contenido-anuncios">
+                        <h3>PC <br> Gamer <br> 
+                            </h3>
+                            <h4>¿Buscas una PC Gamer? Contáctanos.</h4>
+                    </div>
+                </div>
+                <img  class="gamer" src="img/productos/gamer.png" alt="">
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- Marcas -->
+<div class="marcas">
+    <h3 class="titulo-marcas">Marcas</h3>
+    <div class="logo-marcas">
+       <img class="logo-hp" src="img/marcas/hp-logo.png" alt="">
+       <img class="logo-acer" src="img/marcas/acer-logo.png" alt="">
+       <img class="logo-acteck" src="img/marcas/Acteck-logo.png" alt="">
+       <img class="logo-adata" src="img/marcas/adata-logopng.png" alt="">
+       <img class="logo-asus"  src="img/marcas/asus-logo.png" alt="">
+       <img class="logo-brother" src="img/marcas/brother-logo.png" alt="">
+       <img class="logo-acer" src="img/marcas/dell-logo.png" alt="">
+       <img class="logo-ecline" src="img/marcas/ec-line.png" alt="">
+       <img class="logo-epson" src="img/marcas/Epson-Logo.png" alt="">
+       <img class="logo-acer" src="img/marcas/intel-logo.png" alt="">
+       <img class="logo-acer" src="img/marcas/Kingston-Logo.png" alt="">
+       <img class="logo-acer" src="img/marcas/Lenovo-Logo.png" alt="">
+       <img class="logo-acer" src="img/marcas/logitech-logo.png" alt="">
+       <img class="logo-acer" src="img/marcas/Panasonic-Logo.png" alt="">
+
+    </div>
+</div> 
+
+<!-- Footer -->
+<footer>
+    <div class="footer-contenido">
+        <div class="left box">
+            
+            <div class="footer-adentro">
+                <img src="/img/logo restaurado.png" class="logo-footer" alt="">
+                <p class="acerca-footer"> Proveedor de Oficinas del Norte</p>
+                <p class="eslogan">Por algo vendemos más...</p>
+                <div class="social">
+                    <a class="logo-fb" href="https://www.facebook.com/pon.torreon/"  target="_blank"><span class="fab fa-facebook-f"></span></a>
+                </div>
+            </div>
+        </div>
+        <div class="center box">
+            <!-- <h3>Nosotros</h3> -->
+            <div class="direccion-contenido">
+                <div class="place">
+                    <span class="fas fa-map-marker-alt"></span>
+                    <span class="text"> Torreón, Coahuila</span>
+                </div>
+                <div class="telefono">
+                    <span class="fas fa-phone-alt"></span>
+                    <span class="text"> (871)793 1122</span>
+                </div>
+                <div class="correo">
+                    <span class="fas fa-envelope"></span>
+                    <span class="text"> pon@pon.com.mx</span>
+                </div>
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3599.82518729144!2d-103.41931098550852!3d25.54419932380436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868fdbbb167a8333%3A0xefec0e8cc8eee572!2sProveedor%20de%20Oficinas%20del%20Norte%20S.A%2C%20de%20C.V.!5e0!3m2!1ses!2smx!4v1618687900000!5m2!1ses!2smx" width="210" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="right box">
+            <h3>Contáctanos</h3>
+            <div class="contacto-contenido">
+                <form action="correo.php" method="POST">
+                    <div class="nombre">
+                        <div class="text">Nombre</div>
+                        <input class="t-nombre" type="text"
+                        name="nombre" required>
+                    </div>
+                    <div class="email">
+                        <div class="text">Correo</div>
+                        <input name="email" class="t-email" type="email" required>
+                    </div>
+                    <div class="mensaje">
+                        <div class="text">Mensaje</div>
+                        <textarea name="mensaje" class="t-tarea"  cols="30" rows="15" required></textarea>
+                    </div>
+                    <div class="boton">
+                        <button class="boton-formulario" type="submit">Envíar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h5 class="copy"> © Copyright 2021, All Right Reserved, <br> Proveedor de Oficinas del Norte S.A de C.V. </h5>
+    </div>
+</footer>
+
+
+
+  
+
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
